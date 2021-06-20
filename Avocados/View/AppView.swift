@@ -38,7 +38,7 @@ struct AppView: View {
 struct AppView_Previews: PreviewProvider {
   static var previews: some View {
     AppView()
-      .previewDevice("iPhone 12 Pro")
+      .previewDevice("iPhone 11")
       .environment(\.colorScheme, .dark)
   }
 }

@@ -69,7 +69,7 @@ struct SettingsView: View {
             HStack {
               Text("Website").foregroundColor(Color.gray)
               Spacer()
-              Text("github.com/jigardave8")
+              Text("github.com")
             }
             HStack {
               Text("Version").foregroundColor(Color.gray)

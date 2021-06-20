@@ -102,7 +102,7 @@ struct RipeningView: View {
       .background(LinearGradient(gradient: Gradient(colors: [Color("ColorGreenLight"), Color("ColorGreenMedium")]), startPoint: .top, endPoint: .bottom))
       .cornerRadius(20)
     }
-    .edgesIgnoringSafeArea(.all)
+//    .edgesIgnoringSafeArea(.all)
     .onAppear(perform: {
       slideInAnimation = true
     })
@@ -112,7 +112,7 @@ struct RipeningView: View {
 struct RipeningView_Previews: PreviewProvider {
   static var previews: some View {
     RipeningView(ripening: ripeningData[1])
-      .previewDevice("iPhone 12 Pro")
+      .previewDevice("iPhone 11")
   }
 }
 

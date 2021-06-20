@@ -84,7 +84,7 @@ var headers: [Header] = headersData
         .padding(.bottom, 85)
       }
     }
-    .edgesIgnoringSafeArea(.all)
+//    .edgesIgnoringSafeArea(.all)
     .padding(0)
   }
 }
