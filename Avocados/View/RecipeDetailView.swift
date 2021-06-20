@@ -81,7 +81,7 @@ struct RecipeDetailView: View {
         .padding(.vertical, 12)
       }
     } // END OF VSTACK
-//    .edgesIgnoringSafeArea(.top)
+    .edgesIgnoringSafeArea(.top)
     .overlay(
       HStack {
         Spacer()

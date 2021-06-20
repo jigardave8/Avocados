@@ -26,7 +26,7 @@ struct RipeningStagesView: View {
         Spacer()
       }
     }
-//    .edgesIgnoringSafeArea(.all)
+    .edgesIgnoringSafeArea(.all)
   }
 }
 

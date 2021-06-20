@@ -123,9 +123,9 @@
 				01CD46EC267F4D9E000D314A /* AppView.swift */,
 				01CD46E6267F4D9C000D314A /* AvocadosView.swift */,
 				01CD46F0267F4DA0000D314A /* ContentView.swift */,
-				01CD46E9267F4D9D000D314A /* HeaderView.swift */,
 				01CD46EE267F4D9E000D314A /* RipeningStagesView.swift */,
 				01CD46E7267F4D9C000D314A /* SettingsView.swift */,
+				01CD46E9267F4D9D000D314A /* HeaderView.swift */,
 				01CD46EF267F4D9F000D314A /* DishesView.swift */,
 				01CD46E4267F4D9B000D314A /* FactsView.swift */,
 				01CD46EA267F4D9D000D314A /* RecipeCardView.swift */,
@@ -399,7 +399,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitdegree.Avocados;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitdegree.Avocado;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -420,7 +420,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitdegree.Avocados;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitdegree.Avocado;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
