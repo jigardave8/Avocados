@@ -16,17 +16,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="hwK-JB-f7K">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="hwK-JB-f7K">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="10b-xo-w2P">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="10b-xo-w2P">
+                                <rect key="frame" x="87" y="293" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="0ND-Ik-WHd"/>
+                                    <constraint firstAttribute="height" constant="240" id="aDi-Do-S1h"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVOCADOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oId-Bw-KlI">
+                                <rect key="frame" x="96" y="545" width="222" height="52"/>
+                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oId-Bw-KlI" firstAttribute="top" secondItem="10b-xo-w2P" secondAttribute="bottom" constant="12" id="0ZW-UT-n15"/>
+                            <constraint firstItem="10b-xo-w2P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GyV-wZ-KYD"/>
+                            <constraint firstItem="10b-xo-w2P" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-35" id="PWh-nP-8Gw"/>
+                            <constraint firstItem="oId-Bw-KlI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ufc-HX-1aU"/>
+                            <constraint firstItem="hwK-JB-f7K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Upn-bc-8BG"/>
+                            <constraint firstItem="hwK-JB-f7K" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="YOv-kM-1LO"/>
+                            <constraint firstAttribute="bottom" secondItem="hwK-JB-f7K" secondAttribute="bottom" id="oiY-f6-Kts"/>
+                            <constraint firstItem="hwK-JB-f7K" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="sgO-Im-Fcw"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
